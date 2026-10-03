@@ -1,0 +1,17 @@
+*{box-sizing:border-box}html,body{margin:0;padding:0}html{background:#d6d5d0}body{color:#222;font-family:"Noto Serif CJK SC","Songti SC","SimSun",serif;line-height:1.82;background:#ecebe6}a{color:#0645ad;text-decoration:none}a:hover{text-decoration:underline}a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid #b87820;outline-offset:2px}img{max-width:100%;height:auto}table{border-collapse:collapse}th,td{vertical-align:top}.fine{font-size:12px;color:#777}.caption{font-size:12px;color:#69645c;margin-top:5px}.photo{margin:22px 0}.photo img{display:block}.download a:before{content:'PDF';font:700 9px Arial;color:#9a1d1d;border:1px solid #b87878;padding:1px 3px;margin-right:6px;background:#fff}.longread p{margin:1.12em 0}.site-footer{font:11px/1.6 Arial,"Microsoft YaHei",sans-serif;color:#7b7b76;padding:18px 24px;border-top:1px solid #c9c8c1}.site{min-height:100vh}.source-line{display:flex;gap:10px;flex-wrap:wrap;margin:28px 0;padding:12px 0;border-top:1px solid #d0cec6;border-bottom:1px solid #d0cec6;font:13px Arial,"Microsoft YaHei",sans-serif}.feature-table{width:100%;margin:24px 0}.feature-table th,.feature-table td{border-bottom:1px solid #d4d1c7;padding:10px 9px;text-align:left}.feature-table th{font-weight:500;color:#555}.final-copy{font-size:17px;line-height:2.05}.final-fact{margin-top:58px;padding-top:18px;border-top:1px solid #d3d0c7;font-size:13px;color:#777}.end-link{margin:50px 0 10px}.old-list,.notice-list,.headline-list,.company-news{list-style:none;margin:0;padding:0}.old-list li,.notice-list li,.headline-list li,.company-news li{padding:7px 4px;border-bottom:1px dotted #aaa}.notice-list li span,.headline-list li span,.company-news li span{float:right;color:#888;font-size:11px}.site-footer:empty{display:none}
+
+
+/* opening page: editorial colophon, no simulated desktop */
+a:visited{color:#5b3f73}
+.intro-page{min-height:100vh;background:#e8e5dd;color:#24231f;font-family:"Noto Serif CJK SC","Songti SC","SimSun",serif}
+.intro-main{width:min(760px,calc(100% - 42px));margin:0 auto;padding:12vh 0 14vh}
+.intro-kicker{font:13px/1.4 Georgia,"Times New Roman",serif;letter-spacing:.28em;color:#7b766c;margin-bottom:46px}
+.intro-main h1{font:400 44px/1.15 "Songti SC","SimSun",serif;letter-spacing:.16em;margin:0 0 24px;border:0}
+.intro-lead{max-width:650px;font-size:18px;line-height:1.95;color:#4e4a43;margin:0 0 52px;padding-bottom:20px;border-bottom:1px solid #aaa49a}
+.intro-copy{max-width:650px;font-size:15px;line-height:2.12}
+.intro-copy p{margin:0 0 1.5em}
+.intro-enter{display:inline-block;margin-top:38px;padding:7px 0;border-bottom:1px solid #444;color:#24231f;font-size:16px;letter-spacing:.06em}
+.intro-enter:visited{color:#24231f}
+.intro-note{margin-top:18px;color:#8b857b;font-size:12px}
+@media(max-width:720px){.intro-main{padding:8vh 0 12vh}.intro-main h1{font-size:34px}.intro-lead{font-size:16px}}
+@media(max-width:720px){body{overflow-x:hidden}table{max-width:100%;display:block;overflow-x:auto}.source-line{display:block}.source-line span{display:none}}
