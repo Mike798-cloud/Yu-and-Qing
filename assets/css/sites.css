@@ -1,62 +1,3 @@
-/* 2026 / 榆川人 */
-body.feature{background:#e9ebed;color:#222;font-family:Arial,"Microsoft YaHei",sans-serif}
-.feature .site{width:1120px;max-width:100%;margin:0 auto;background:#fff;border-left:1px solid #c9cdd1;border-right:1px solid #c9cdd1}
-.feature header{padding:0 28px;background:#fff}
-.feature .ycr-top{height:27px;border-bottom:1px solid #ddd;color:#777;font-size:11px;line-height:27px}
-.feature .brand{font-size:28px;font-weight:700;letter-spacing:0;padding:15px 0 10px;color:#1f2f3d}
-.feature .brand small{font-size:12px;font-weight:400;color:#777;margin-left:10px}
-.feature nav{border-top:2px solid #365e7d;border-bottom:1px solid #bfc8ce;padding:7px 0;font-size:13px}
-.feature nav a{color:#263f53;text-decoration:none;margin-right:24px}
-.feature nav a:hover{text-decoration:underline}
-.feature main{padding:30px 34px 72px}
-.feature .breadcrumbs{font-size:11px;color:#777;margin:0 0 14px}
-.feature .date{font-size:12px;color:#777;margin-bottom:6px}
-.feature h1{font-family:"Microsoft YaHei",Arial,sans-serif;font-size:30px;line-height:1.35;margin:0 0 10px;font-weight:600;letter-spacing:0;color:#222}
-.feature .deck{font-family:"SimSun",serif;font-size:16px;line-height:1.8;color:#555;margin:0 0 18px;padding-bottom:14px;border-bottom:1px solid #d7d7d7}
-.feature .article-layout{display:flex;align-items:flex-start;gap:36px}
-.feature .article-body{width:720px;max-width:100%;font-family:"SimSun",serif;font-size:16px;line-height:2}
-.feature .article-body p{margin:1em 0}
-.feature .article-aside{width:250px;flex:0 0 250px;border-left:1px solid #d6d6d6;padding-left:18px;font-size:12px;line-height:1.7;color:#555}
-.feature .article-aside h2{font-size:14px;color:#333;margin:0 0 7px;border-bottom:2px solid #52728a;padding-bottom:5px}
-.feature .article-aside ul{margin:0 0 18px;padding-left:17px}
-.feature .article-aside li{margin:4px 0}
-.feature .photo{margin:20px 0 16px;width:580px;max-width:100%}
-.feature .photo img{width:100%;border:1px solid #c8c8c8}
-.feature .caption{font-family:Arial,"Microsoft YaHei",sans-serif;color:#777}
-.feature .source-line{margin:22px 0;padding:9px 0;border-top:1px solid #d8d8d8;border-bottom:1px solid #d8d8d8}
-.feature .source-line span{color:#aaa;margin:0 5px}
-.feature .site-footer{background:#f3f4f4;color:#777;border-top:1px solid #d0d3d5;padding:14px 28px}
-.feature .record-box{border:1px solid #b9c1c7;background:#f6f8f9;padding:11px 14px;margin:16px 0;font-size:13px;line-height:1.75}
-.feature .record-box b{display:inline-block;min-width:82px}
-.feature .timeline{width:100%;font-size:13px;margin:18px 0 24px}
-.feature .timeline th,.feature .timeline td{border:1px solid #bfc5c9;padding:7px 8px}
-.feature .timeline th{background:#e8edf0;font-family:Arial,"Microsoft YaHei",sans-serif}
-.feature .history-note{font-size:13px;color:#555;border-left:4px solid #778d9d;padding:7px 10px;background:#f4f6f7}
-.feature .transcript{max-width:760px}
-.feature .transcript .q,.feature .transcript .a{padding:8px 0;border-bottom:1px dotted #c9c9c9;font-family:"SimSun",serif;font-size:16px;line-height:1.95}
-.feature .transcript .speaker{display:inline-block;width:72px;font-family:Arial,"Microsoft YaHei",sans-serif;font-size:12px;color:#45647a;vertical-align:top;padding-top:4px}
-.feature .transcript .speech{display:inline-block;width:calc(100% - 78px)}
-.feature .data-note{max-width:820px;background:#f5f6f6;border:1px solid #bfc4c7;padding:14px 16px;font-size:13px;line-height:1.8}
-.feature .data-note h2{font-size:15px;margin:0 0 7px;color:#333}
-.feature .data-list{width:100%;font-size:12px;margin:14px 0 20px}
-.feature .data-list th,.feature .data-list td{border:1px solid #c2c6c8;padding:6px 7px;text-align:left}
-.feature .data-list th{background:#eceeee}
-.feature .download{font-family:Arial,"Microsoft YaHei",sans-serif;font-size:13px;border-top:1px solid #ddd;border-bottom:1px solid #ddd;padding:8px 0;margin:16px 0}
-.feature .interview-meta{font-size:12px;border-top:1px solid #bbb;border-bottom:1px solid #ddd;padding:8px 0;margin:12px 0 18px;color:#555}
-.feature .interview-meta span{margin-right:25px}
-.feature .final-news{max-width:760px}
-.feature .final-news .photo{width:520px}
-.feature .final-news .final-copy{font-family:"SimSun",serif;font-size:16px;line-height:2}
-.feature .final-fact{margin-top:30px;padding-top:12px;border-top:1px solid #ccc;font-size:13px;color:#666}
-.feature .archive-list{width:100%;font-size:12px;margin:14px 0}
-.feature .archive-list th,.feature .archive-list td{border:1px solid #c3c7ca;padding:6px;text-align:left}
-.feature .archive-list th{background:#eceeef}
-.feature .archive-search{margin-top:20px;padding-top:12px;border-top:1px solid #aaa;max-width:800px}
-.feature .search-row{display:flex;gap:6px;margin:8px 0}
-.feature .search-row input{flex:1;border:1px solid #80868a;padding:6px 7px;font-size:13px}
-.feature .search-row button{border:1px solid #6f7579;background:#e7e9ea;padding:5px 14px;font-size:12px}
-.feature .search-results ol{padding-left:22px}.feature .search-results li{margin:6px 0}.feature .search-results small{display:block;color:#777}
-
 /* 2008 / 学校毕业专题 */
 body.school{background:#88a9ba;font-family:"SimSun",serif;color:#111}
 .school .site{width:780px;margin:8px auto 24px;background:#fff;border:2px solid #215b82;min-height:680px}
@@ -78,7 +19,7 @@ body.school{background:#88a9ba;font-family:"SimSun",serif;color:#111}
 .school .school-hero{overflow:hidden;margin-bottom:8px}
 .school .school-hero img{float:left;width:330px;margin-right:9px;border:1px solid #7392a3}
 .school .school-hero p{margin:0;font-size:12px;line-height:1.7}
-.school .school-photo{margin:6px 0 10px}.school .school-photo img{width:430px;border:1px solid #7893a3}
+.school .school-photo{margin:6px 0 10px}.school .school-photo img{width:380px;border:1px solid #7893a3}
 .school table{width:100%;font-size:12px;margin:6px 0}
 .school th,.school td{border:1px solid #91aebf;padding:3px 5px;line-height:1.55}
 .school th{background:#dff0f7;text-align:left;color:#174f70}
@@ -87,7 +28,7 @@ body.school{background:#88a9ba;font-family:"SimSun",serif;color:#111}
 .school .site-footer{clear:both;text-align:center;background:#dbeaf2;border-top:1px solid #7e9cad;color:#4d6573;padding:8px 4px}
 
 /* 2008 / 地方门户 */
-body.portal{background:#d6d2ca;font-family:Arial,"Microsoft YaHei",sans-serif;color:#222}
+body.portal{background:#d6d2ca;font-family:Tahoma,Arial,"SimSun",sans-serif;color:#222}
 .portal .site{width:960px;margin:4px auto 22px;background:#fff;border:1px solid #8e887d}
 .portal header{padding:0;background:#fff}
 .portal .portal-util{height:24px;background:#f4f0ea;border-bottom:1px solid #c7beb2;padding:4px 9px;font-size:11px;color:#6c6258}
@@ -103,10 +44,9 @@ body.portal{background:#d6d2ca;font-family:Arial,"Microsoft YaHei",sans-serif;co
 .portal h1{font:bold 20px "SimSun",serif;color:#8c261f;margin:5px 0 8px}.portal h2{font:bold 14px "SimSun",serif;margin:10px 0 3px;padding:2px 4px;background:#eee5dc;border-left:4px solid #b1362c;border-bottom:1px solid #d3c6ba}
 .portal .headline-list li{border-bottom:1px dotted #c8c1b8;padding:3px}.portal .headline-list li:before{content:'· ';color:#b52e24}.portal .headline-list li span{float:right}
 .portal .portal-mini-columns{overflow:hidden;margin-top:8px}.portal .portal-mini-columns>div{float:left;width:49%;margin-right:1%;border-top:1px solid #b5aaa0}.portal .portal-mini-columns ul{margin:4px 0 8px;padding-left:19px}
-.portal .moto-photo{width:320px;margin:9px 0}.portal .moto-photo img{display:block;width:320px;height:auto;max-width:100%;border:1px solid #9b948a}.portal .moto-photo .caption{font-size:11px;color:#777;padding-top:2px}
 .portal .classified{width:100%;font-size:12px}.portal .classified th,.portal .classified td{padding:4px 5px;border:1px solid #ded8d0}.portal .classified th{background:#eee8df;text-align:left}.portal .classified tr:nth-child(even) td{background:#fbfaf8}.portal .price{color:#a21f19;font-weight:bold}.portal .market-note,.portal .crumb,.portal .thread-meta{font-size:11px;color:#777}
 .portal .citypost{overflow:hidden;border-top:1px solid #ddd;padding:6px 2px;font-size:12px}.portal .cityuser{float:left;width:95px;color:#9a2c25}.portal .citypost>div:last-child{margin-left:100px}.portal .cityuser small{display:block;color:#999}.portal .pager{border-top:1px solid #ccc;padding:6px 0}
-.portal .bloghead{height:84px;background:#d7dfe0;border:1px solid #8c9da3;margin:0 0 9px;position:relative;overflow:hidden}.portal .bloghead:before{content:'';position:absolute;left:0;top:0;width:100%;height:100%;background:url('../img/street_2008.jpg') center/cover no-repeat;opacity:.55}.portal .bloghead span{position:absolute;left:14px;bottom:10px;font:28px "KaiTi","SimKai",serif;color:#173b4a;text-shadow:1px 1px #fff}.portal .bloghead i{position:absolute;right:8px;bottom:5px;font-style:normal;font-size:10px;background:#f4f0e9;color:#555;padding:2px 4px;border:1px solid #aaa}
+.portal .bloghead{height:76px;background:#d7e2e5;border:1px solid #8c9da3;margin:0 0 9px;position:relative;overflow:hidden}.portal .bloghead:before{content:'榆川博客　个人空间';position:absolute;left:14px;top:9px;font:11px "SimSun",serif;color:#60757d}.portal .bloghead>span{position:absolute;left:14px;bottom:8px;font:27px "KaiTi","SimKai",serif;color:#173b4a}.portal .bloghead i{position:absolute;right:8px;bottom:5px;font-style:normal;font-size:10px;background:#eef1ef;color:#555;padding:2px 4px;border:1px solid #9aa5a8}
 .portal .blog-layout{overflow:hidden}.portal .blog-layout .blog{float:left;width:730px}.portal .profile-side{float:right;width:185px;border:1px solid #c9bfb3;background:#f7f2eb;padding:6px;font-size:12px}.portal .blog{font-family:"SimSun",serif;max-width:740px}.portal .blog article{border-bottom:1px solid #ccc;padding-bottom:13px}.portal .blog time{font-size:11px;color:#8f6969}.portal .blog h1,.portal .blog h2{font-family:"SimSun",serif;background:none;border:0;color:#222;padding:0}.portal .blog h1{font-size:20px}.portal .blog h2{font-size:16px}.portal .comments{margin-top:12px;border:1px dotted #aaa;background:#fafafa;padding:5px 8px;font-size:12px}.portal .comments p{margin:.4em 0}.portal .thread-lite{border-top:1px solid #ccc;margin-top:12px}.portal .thread-lite p{padding:5px 2px;border-bottom:1px dotted #bbb;margin:0}.portal .site-footer{text-align:center;background:#eee7de;border-top:1px solid #c0b4a8;color:#6f655d;padding:8px}
 
 /* 2008 / 客运人驾驶员论坛 */
@@ -130,7 +70,7 @@ body.company{background:#cbd4d9;font-family:Arial,"SimSun",sans-serif;color:#222
 .company .brand{height:63px;padding:14px 14px 0;font:bold 30px "SimSun",serif;color:#0b5c91;background:#fff}.company .brand:after{content:' YUYUN TRANSPORT GROUP';font:11px Arial;color:#7a8b96;margin-left:10px}
 .company nav{background:#12669a;border-top:1px solid #0b4f7c;border-bottom:3px solid #084a74;padding:5px 9px}.company nav a{color:#fff;text-decoration:none;margin-right:22px;font-size:12px}.company nav a:hover{background:#0c5685}
 .company main{padding:10px 12px 48px;font-size:13px;line-height:1.65}.company h1{font:bold 18px "SimSun",serif;color:#145e89;margin:5px 0 8px;border-bottom:2px solid #4f88a8;padding-bottom:4px}.company h2{font:bold 14px "SimSun",serif;color:#265f80;margin:10px 0 4px;background:#e7f0f5;border-left:4px solid #387ba0;padding:3px 5px}
-.company-splash{height:144px;border:1px solid #7e98a7;background:#eaf1f4 url('../img/company_buses_01.jpg') right center/410px auto no-repeat;margin-bottom:8px;position:relative}.company-splash>div{position:absolute;left:16px;top:28px;width:340px;color:#0e5b89}.company-splash h1{font:bold 30px "SimSun",serif;border:0;background:none;padding:0;margin:0}.company-splash p{font-size:12px;letter-spacing:4px;color:#557788;margin:5px 0}
+.company-splash{height:104px;border:1px solid #7e98a7;background:#eaf1f4;margin-bottom:8px;position:relative}.company-splash>div{position:absolute;left:16px;top:28px;width:340px;color:#0e5b89}.company-splash h1{font:bold 30px "SimSun",serif;border:0;background:none;padding:0;margin:0}.company-splash p{font-size:12px;letter-spacing:4px;color:#557788;margin:5px 0}
 .company-cols{overflow:hidden}.company-cols>section{float:left;width:610px}.company-cols>aside{float:right;width:240px;border-left:1px solid #c1ccd2;padding-left:10px;font-size:12px}.company-cols aside img{width:220px;border:1px solid #8ca0ab}.company-news li{border-bottom:1px dotted #aaa;padding:4px 3px}.company-news li span{float:right}.timetable,.file-table,.company table{width:100%;font-size:12px}.timetable th,.timetable td,.file-table th,.file-table td,.company table th,.company table td{border:1px solid #9fadb5;padding:4px 5px}.timetable th,.file-table th,.company table th{background:#dfebf1;text-align:left}.company-article{width:720px;margin:0 auto}.company-article h2{text-align:center;background:none;border:0;font-size:18px}.safety-notice{border:1px solid #a9b9c2;background:#f4f8fa;padding:5px 8px}.company .site-footer{text-align:center;background:#e4edf2;border-top:1px solid #9badb7;color:#647782;padding:8px}
 
 /* 2008 / 榆川巴士志 */
@@ -143,10 +83,45 @@ body.admissions{background:#d9d9d9;font-family:"SimSun",serif;color:#111}
 .admissions .site{width:820px;margin:5px auto 22px;background:#fff;border:1px solid #8d8d8d}
 .admissions header{padding:0;background:#fff}.admissions .adm-util{height:23px;background:#f4f4f4;border-bottom:1px solid #ccc;padding:4px 8px;font:11px Arial,"SimSun",sans-serif;color:#666}.admissions .brand{font:bold 26px "SimSun",serif;color:#7d1c21;padding:13px 14px 8px}.admissions nav{background:#7d1c21;border-top:1px solid #5d1115;border-bottom:2px solid #4d0d11;padding:5px 10px}.admissions nav a{color:#fff;text-decoration:none;margin-right:22px;font-size:12px}.admissions main{padding:12px 17px 52px;font-size:14px;line-height:1.8}.admissions h1{font:bold 20px "SimSun",serif;text-align:center;color:#111;margin:10px 0 8px}.admissions h2{font:bold 15px "SimSun",serif;margin:13px 0 5px}.adm-banner{border:1px solid #aaa;background:#f6f6f6;padding:7px 9px}.adm-banner b{font-size:18px;color:#7d1c21}.adm-banner span{float:right;color:#666;font-size:12px}.adm-cols{overflow:hidden;margin-top:8px}.adm-cols>section{float:left;width:600px}.adm-cols>aside{float:right;width:160px;border-left:1px solid #bbb;padding-left:10px;font-size:12px}.notice-list li{border-bottom:1px dotted #bbb;padding:4px 2px}.notice-list li span{float:right}.docno{text-align:center;font-size:13px;margin-top:-3px}.signoff{text-align:right;margin-top:26px}.admissions .site-footer{text-align:center;background:#eee;border-top:1px solid #aaa;color:#666;padding:8px}
 
-/* 2026 / 地方网页保存计划 */
-body.archive{background:#9fa3a3;font-family:Arial,"Microsoft YaHei",sans-serif;color:#111}
-.archive .site{width:900px;margin:14px auto 24px;background:#f3f3f0;border:1px solid #555}
-.archive header{padding:0;background:#d4d6d5;border-bottom:1px solid #777}.archive .archive-util{font:10px Consolas,"Courier New",monospace;padding:4px 8px;border-bottom:1px solid #999;color:#555}.archive .brand{font:bold 15px Arial,"Microsoft YaHei",sans-serif;padding:7px 9px 2px}.archive nav{font-size:11px;padding:1px 9px 6px}.archive nav a{margin-right:14px}.archive main{padding:16px 18px 30px;font-size:12px;line-height:1.65}.archive h1{font:bold 18px Arial,"Microsoft YaHei",sans-serif;margin:0 0 8px}.archive h2{font-size:14px;margin:16px 0 5px}.archive table{width:100%;font-size:11px;background:#fff}.archive th,.archive td{border:1px solid #8e9291;padding:5px 6px;text-align:left}.archive th{background:#d9dcda}.archive .archive-note{font:10px Consolas,"Courier New",monospace;color:#666;margin-top:15px;padding-top:7px;border-top:1px dotted #888}.archive .archive-search{margin-top:17px;border-top:1px solid #777;padding-top:10px}.archive .search-row{display:flex;gap:5px;margin:7px 0}.archive .search-row input{flex:1;border:1px solid #666;background:#fff;padding:5px 6px;font:12px Arial}.archive .search-row button{border:1px solid #666;background:#d8d9d6;padding:4px 13px;font-size:12px}.archive .search-results ol{margin:7px 0;padding-left:22px}.archive .search-results li{margin:5px 0}.archive .search-results small{display:block;color:#666}.archive .site-footer{background:#d5d7d5;border-top:1px solid #777;color:#5d6160;padding:8px 10px}.archive-media td:nth-child(2){font-family:Consolas,"Courier New",monospace}.archive .status-ok{color:#245c24}.archive .status-hold{color:#7b5a20}
+/* 窄屏回退：2008年页面保持当年固定宽度，允许横向浏览 */
+@media(max-width:900px){body.school,body.portal,body.forum,body.company,body.busfan,body.admissions{overflow-x:auto}.school .site{margin-left:8px;margin-right:8px}.portal .site,.forum .site,.company .site,.admissions .site{margin-left:5px;margin-right:5px}.busfan .site{margin-left:0}}
 
-/* 窄屏回退 */
-@media(max-width:900px){body.school,body.portal,body.forum,body.company,body.busfan,body.admissions,body.archive{overflow-x:auto}.school .site{margin-left:8px;margin-right:8px}.portal .site,.forum .site,.company .site,.admissions .site,.archive .site{margin-left:5px;margin-right:5px}.busfan .site{margin-left:0}.feature .site{border:0}.feature .article-layout{display:block}.feature .article-body{width:auto}.feature .article-aside{width:auto;border-left:0;border-top:1px solid #ddd;margin-top:24px;padding:12px 0 0;display:block}.feature main{padding:24px 18px 60px}.feature header{padding:0 18px}.feature nav a{display:inline-block;margin:0 15px 4px 0}.feature .photo{width:100%}}
+/* 2008 榆运集团：旧式企业门户覆盖，避免现代品牌横幅感 */
+.company .site{width:940px;background:#fff;border-color:#7895a6}
+.company .company-util{background:#e8f1f5;color:#526d7c}
+.company .brand{height:68px;padding:17px 16px 0;font-size:31px;background:linear-gradient(to right,#fff 0,#fff 69%,#e2eef4 69%,#d8e8f0 100%)}
+.company nav{padding:6px 12px;background:linear-gradient(#1779ac,#0a6194);border-bottom:3px solid #084d76}
+.company nav a{margin-right:28px;font-size:13px}
+.company main{padding:12px 13px 50px}
+.company-splash{height:96px;background:#e8f1f5;border:1px solid #7f9cac}
+.company-splash:after{content:'服务电话 22****4　　班次信息以车站公告为准';position:absolute;right:16px;bottom:12px;font:11px/1.2 "SimSun",serif;color:#617d8c;letter-spacing:0}
+.company-splash>div{left:18px;top:18px;width:360px}.company-splash h1{font-size:27px}.company-splash p{font-size:11px}
+.company-cols>section{width:650px}.company-cols>aside{width:245px;font-size:12px}.company-cols aside h3{margin:0 0 4px;padding:3px 5px;background:#e4eff4;border-left:3px solid #4c86a6;font:bold 12px "SimSun",serif;color:#275e7b}.company-cols aside p{margin:4px 0 11px;line-height:1.6}
+.company h2{background:#e1edf3;border-left:4px solid #2d7aa1;color:#285f7d}
+
+/* 个人巴士站更像长期自建主页，不用图片充当首页横幅 */
+.busfan .site{width:760px;background:#fffbe4}
+.busfan .fan-cols>aside{background:transparent}.busfan .fan-cols aside b{display:block;color:#17495f;border-bottom:1px dashed #7c7455;padding-bottom:2px;margin-bottom:4px}.busfan .fan-cols aside p{margin:4px 0 11px}.busfan a{color:#0000cc}.busfan a:visited{color:#551a8b}
+
+/* 2008年页面中的图片只按原比例缩放，不裁切 */
+.portal .photo img,.school img,.busfan img{object-fit:contain}.portal .detail+.photo img{width:auto;max-width:320px;height:auto}.busfan .photo img{width:auto;max-width:480px;height:auto}
+
+/* 学校旧信息网查询：表格式表单，不使用现代卡片组件 */
+.school .school-login{margin:10px 0;width:430px}.school .school-login table{width:430px}.school .school-login th{width:90px;text-align:right;background:#e9f4f9;font-weight:normal}.school .school-login input{width:170px;height:21px;border:1px solid #7d99a8;font:12px Arial,"SimSun",sans-serif}.school .school-login button{height:24px;border:1px solid #5f7f91;background:#e7eef2;font:12px "SimSun",serif;padding:1px 14px}.school .login-msg{color:#b00000;font-size:12px;min-height:18px}.school .student-record th{width:82px}.school .photo-note{font-size:12px;color:#666;border-bottom:1px dotted #aaa;padding:4px 0 8px}.portal .bloghead i a{color:#3e4c52;text-decoration:none}.portal .bloghead i a:hover{text-decoration:underline}.portal .bloghead i .unavailable{color:#999}.busfan .missing-photo{font:12px "SimSun",serif;color:#666;border-top:1px dashed #8b856d;border-bottom:1px dashed #8b856d;padding:5px 2px}
+.archive .corr-ref{font-family:Consolas,"Courier New",monospace;color:#536b78}.archive table.corrections td:first-child{white-space:nowrap}
+.forum .thread-tools a{color:#365f78;text-decoration:underline}.forum .thread-tools span{color:#788991}
+.school .photo-missing{margin:0;padding:6px 0;border-bottom:1px dotted #9cb2c2;color:#536b7a;font-size:12px}
+
+/* 叙事照片：按各自网站年代与版式嵌入，不做卡片化容器 */
+.school .school-hero img{float:left;width:330px;height:auto;margin:0 10px 6px 0;border:1px solid #7894a4}
+.portal .blog-photo{margin:10px 0 14px;font-size:11px;color:#777}
+.portal .blog-photo img{display:block;width:auto;max-width:360px;height:auto;border:1px solid #aaa;margin-bottom:3px}
+.portal .blog-photo span{font-family:"SimSun",serif}
+.busfan .fan-photo{margin:8px 0 10px;font-size:11px;color:#6d6754}
+.busfan .fan-photo img{display:block;width:auto;max-width:460px;height:auto;border:1px solid #77715a;margin-bottom:3px}
+.busfan .fan-photo span{font-family:"SimSun",serif}
+.company .company-photo{width:auto;margin:0 0 11px;border:0;padding:0 0 8px;border-bottom:1px solid #b7c7cf;font:11px/1.4 "SimSun",serif;color:#607786}
+.company .company-photo img{display:block;width:230px;height:auto;border:1px solid #8ca5b3;margin-bottom:3px}
+
+/* 榆运集团内部信息网：归档副本使用简洁内网页面，不套公开门户导航 */
+.company-internal .site{width:760px;margin:12px auto 28px;border:1px solid #7f919a;background:#f8f8f6}.company-internal header{background:#e9eef0;border-bottom:1px solid #8799a2}.company-internal .internal-brand{height:54px;padding:10px 13px 0;color:#244f67}.company-internal .internal-brand b{font:bold 22px/1.3 "SimSun",serif}.company-internal .internal-brand span{margin-left:18px;font:12px "SimSun",serif;color:#647781}.company-internal .internal-path{padding:4px 12px;background:#d8e2e7;border-top:1px solid #aab9c1;font:11px "SimSun",serif;color:#506b79}.company-internal main{padding:16px 24px 42px;font:13px/1.7 "SimSun",serif}.company-internal h1{margin:0 0 6px;text-align:center;border:0;color:#222;font:bold 22px "SimSun",serif}.company-internal h2{margin:18px 0 6px;padding:0;background:none;border:0;color:#222;font:bold 14px "SimSun",serif}.company-internal table{margin:6px 0 12px}.company-internal .internal-list{margin:6px 0 10px;padding-left:22px}.company-internal .internal-note{margin-top:18px;padding-top:7px;border-top:1px solid #bbb;color:#666;font-size:12px}.company-internal .site-footer{background:#e6ecef;color:#62747d}
