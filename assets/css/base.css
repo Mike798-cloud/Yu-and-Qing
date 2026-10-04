@@ -1,16 +1,1 @@
-*{box-sizing:border-box}html,body{margin:0;padding:0}body{color:#222;font-family:Arial,"Microsoft YaHei",sans-serif;line-height:1.6}a{color:#0645ad;text-decoration:underline}a:hover{color:#b20}a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid #b45f06;outline-offset:2px}img{max-width:100%;height:auto}table{border-collapse:collapse}th,td{vertical-align:top}.fine{font-size:12px;color:#6e6e6e}.caption{font-size:12px;color:#666;margin-top:4px}.photo img{display:block}.download a:before{content:'[PDF] ';font-weight:bold;color:#900}.site{min-height:100vh}.site-footer{font-size:11px;line-height:1.55}.old-list,.notice-list,.headline-list,.company-news{list-style:none;margin:0;padding:0}.old-list li,.notice-list li,.headline-list li,.company-news li{padding:5px 3px}.notice-list li span,.headline-list li span,.company-news li span{float:right;color:#777;font-size:11px}.source-line{font-size:13px}.feature-table{border-collapse:collapse}.feature-table th,.feature-table td{text-align:left}.end-link{margin-top:36px}
-
-/* Opening page: deliberately ordinary. It explains how to read and then gets out of the way. */
-body.intro-page{min-height:100vh;background:#f1f1ee;color:#202020;font-family:Arial,"Microsoft YaHei",sans-serif}
-.intro-main{width:min(760px,calc(100% - 44px));margin:0 auto;padding:64px 0 90px}
-.intro-kicker{font:12px/1.4 Consolas,"Courier New",monospace;color:#666;margin-bottom:10px}
-.intro-main h1{font:700 34px/1.25 "Microsoft YaHei",Arial,sans-serif;margin:0 0 10px;letter-spacing:0}
-.intro-lead{font-size:16px;line-height:1.75;margin:0 0 24px;padding:0 0 18px;border-bottom:1px solid #b8b8b4;color:#444}
-.intro-copy{font-size:14px;line-height:1.9;max-width:690px}
-.intro-copy p{margin:.7em 0}
-.intro-copy p:nth-child(3){margin-top:18px;padding:8px 10px;background:#e6e6e1;border-left:3px solid #777}
-.intro-enter{display:inline-block;margin-top:28px;font-size:15px;font-weight:bold;color:#0645ad}
-.intro-note{font-size:12px;color:#777;margin-top:8px}
-.intro-page a:visited{color:#551a8b}
-
-@media(max-width:720px){body{overflow-x:hidden}.intro-main{width:min(100% - 30px,760px);padding:40px 0 70px}.intro-main h1{font-size:30px}table{max-width:100%;display:block;overflow-x:auto}.notice-list li span,.headline-list li span,.company-news li span{float:none;margin-left:8px}}
+*{box-sizing:border-box}html,body{margin:0;padding:0}body{color:#171717}a{color:inherit}a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid currentColor;outline-offset:3px}img{max-width:100%;height:auto}table{border-collapse:collapse}th,td{vertical-align:top}.fine{font-size:12px;color:#707070}.caption{font-size:12px;color:#676767}.download a:before{content:"[PDF] ";font-weight:700}.site{min-height:100vh}.end-link{margin-top:42px}@media(max-width:760px){table{max-width:100%;display:block;overflow-x:auto}}
