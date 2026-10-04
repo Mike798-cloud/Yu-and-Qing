@@ -7,6 +7,8 @@ const StationSupport={
   SESSION_KEY:'_station_other_side_support_session',
   COOKIE_KEY:'_station_other_side_support_flag',
   AUTO_SEEN_KEY:'_station_other_side_support_auto_seen',
+  AUTO_SESSION_KEY:'_station_other_side_support_auto_session',
+  AUTO_COOKIE_KEY:'_station_other_side_support_auto_cookie',
   qrCode:'https://mike798-cloud.github.io/songtao-grainstation/paycode.png',
   qrCodeFallback:'https://raw.githubusercontent.com/Mike798-cloud/songtao-grainstation/main/paycode.png',
   _getCookie(name){
@@ -20,8 +22,14 @@ const StationSupport={
     try{return !!(localStorage.getItem(this.STORAGE_KEY)||sessionStorage.getItem(this.SESSION_KEY)||this._getCookie(this.COOKIE_KEY));}
     catch(e){return !!this._getCookie(this.COOKIE_KEY);}
   },
-  hasAutoSeen(){try{return localStorage.getItem(this.AUTO_SEEN_KEY)==='1';}catch(e){return false;}},
-  markAutoSeen(){try{localStorage.setItem(this.AUTO_SEEN_KEY,'1');}catch(e){}},
+  hasAutoSeen(){
+    try{if(localStorage.getItem(this.AUTO_SEEN_KEY)==='1'||sessionStorage.getItem(this.AUTO_SESSION_KEY)==='1')return true;}catch(e){}
+    return this._getCookie(this.AUTO_COOKIE_KEY)==='1';
+  },
+  markAutoSeen(){
+    try{localStorage.setItem(this.AUTO_SEEN_KEY,'1');sessionStorage.setItem(this.AUTO_SESSION_KEY,'1');}catch(e){}
+    this._setCookie(this.AUTO_COOKIE_KEY,'1',30);
+  },
   markPaid(){
     const raw=Date.now()+'_'+Math.random().toString(36).slice(2,10)+'_station_other_side';
     let token=raw;
@@ -49,16 +57,15 @@ const StationSupport={
       <button type="button" class="station-support-close" aria-label="关闭">×</button>
       <div class="station-support-inner">
         <header class="station-support-head">
-          <div class="station-support-eyebrow">voluntary support / 1 yuan</div>
-          <h2 id="stationSupportTitle">如果你愿意，支持《站台另一边》1元</h2>
+          <h2 id="stationSupportTitle">如果你愿意，可以支持《站台另一边》1 元</h2>
           <p>完全自愿，不影响后面的页面与结局。</p>
         </header>
         <div class="station-support-body">
           <figure class="station-support-qr"><img src="${this.qrCode}" alt="1元支持收款码"><figcaption>扫码支持 1 元</figcaption></figure>
           <div class="station-support-copy">
-            <p>谢谢你愿意把这些旧网页一页页翻下去。很多页面里其实没有答案，只有当年的通知、闲聊和没人会特意保存的小事。</p>
-            <p>把这个小窗口放在这里，是因为你已经看过一些材料，但离最后还早。如果这段整理让你觉得值得，愿意留下一块钱，我会很开心；不方便的话，关掉就好，后面的页面不会少。</p>
-            <p class="station-support-line">这一块钱不会替谁把当年没问出口的话补回来。它只是让我知道，有人认真看过这些已经过去的页面。</p>
+            <p>谢谢你愿意把这些旧网页一页页翻下去。这个小窗口放在这里，是因为你已经看过一部分材料，但离最后还早。</p>
+            <p>如果你觉得这次整理值得支持，可以留下一块钱。不方便的话，直接关掉就好，后面的页面、资料和结局都不会少。</p>
+            <p class="station-support-line">付款与内容无关，也不会解锁额外页面。</p>
           </div>
         </div>
         <footer class="station-support-foot">
