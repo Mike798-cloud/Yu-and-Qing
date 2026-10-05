@@ -57,27 +57,27 @@ const StationSupport={
       <button type="button" class="station-support-close" aria-label="关闭">×</button>
       <div class="station-support-inner">
         <header class="station-support-head">
-          <h2 id="stationSupportTitle">如果你愿意，可以支持《站台另一边》1 元</h2>
-          <p>完全自愿，不影响后面的页面与结局。</p>
+          <h2 id="stationSupportTitle">如果你愿意，可以支持作者 1 元</h2>
+          <p>完全自愿，和后面的内容没有关系。</p>
         </header>
         <div class="station-support-body">
           <figure class="station-support-qr"><img src="${this.qrCode}" alt="1元支持收款码"><figcaption>扫码支持 1 元</figcaption></figure>
           <div class="station-support-copy">
-            <p>谢谢你愿意把这些旧网页一页页翻下去。这个小窗口放在这里，是因为你已经看过一部分材料，但离最后还早。</p>
-            <p>如果你觉得这次整理值得支持，可以留下一块钱。不方便的话，直接关掉就好，后面的页面、资料和结局都不会少。</p>
-            <p class="station-support-line">付款与内容无关，也不会解锁额外页面。</p>
+            <p>能看到这里，已经很感谢了。</p>
+            <p>如果你觉得这部作品值得留下一点支持，可以扫一下；不方便就关掉，照常往后看。</p>
+            <p class="station-support-line">付款不会解锁页面，也不会改变结局。</p>
           </div>
         </div>
         <footer class="station-support-foot">
-          <button type="button" class="station-support-done">我支持了一下</button>
-          <button type="button" class="station-support-later">先继续看</button>
+          <button type="button" class="station-support-done">我已经支持</button>
+          <button type="button" class="station-support-later">继续看</button>
         </footer>
       </div>
     </section>`;
     body.appendChild(overlay);
     overlay.querySelector('.station-support-close').addEventListener('click',()=>this.hide());
     overlay.querySelector('.station-support-later').addEventListener('click',()=>this.hide());
-    overlay.querySelector('.station-support-done').addEventListener('click',()=>{this.markPaid();this.hide();this.toast('收到啦，谢谢你。继续看吧，后面的内容不会因为这件事变少。');});
+    overlay.querySelector('.station-support-done').addEventListener('click',()=>{this.markPaid();this.hide();this.toast('谢谢。接着看吧。');});
     overlay.addEventListener('click',event=>{if(event.target===overlay)this.hide();});
     const qr=overlay.querySelector('.station-support-qr img');
     qr.addEventListener('error',()=>{
@@ -88,7 +88,7 @@ const StationSupport={
   },
   show(options={}){
     if(this.hasPaid()){
-      if(options.manual)this.toast('已经收到你的支持了，谢谢你。');
+      if(options.manual)this.toast('谢谢，已经收到了。');
       return;
     }
     const overlay=this.ensureDialog();
